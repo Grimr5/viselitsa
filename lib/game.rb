@@ -53,7 +53,7 @@ class Game
     normalized_letters = normalize_letter(letter)
 
     if !over? && !@user_guesses.include?(normalized_letters)
-      @user_guesses <<normalized_letters
+      @user_guesses << normalized_letters
     end
   end
 
